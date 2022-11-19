@@ -4,7 +4,7 @@
     {
         public BigMac() : base("BigMac")
         {
-            Price = 10;
+            Price = ConstantPrices.BigMacPrice;
             Ingredients = new List<string> { "bun", "meat", "sause", "cheese", "onion", "tomtoes" };
         }
     }

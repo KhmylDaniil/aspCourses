@@ -4,7 +4,7 @@
     {
         public Cheeseburger() : base("Cheeseburger")
         {
-            Price = 6;
+            Price = ConstantPrices.CheeseburgerPrice;
             Ingredients = new List<string> { "bun", "meat", "sause", "cheese" };
         }
     }
